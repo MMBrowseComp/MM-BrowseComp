@@ -1,1 +1,5 @@
 .DS_Store
+answers
+data/MMBrowseComp_decrypted.jsonl
+eval_results/
+processed_data.ipynb

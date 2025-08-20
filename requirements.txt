@@ -1,0 +1,8 @@
+openai
+tqdm
+pydantic
+httpx
+distro
+sniffio
+anyio
+certifi
