@@ -1,5 +1,46 @@
+# OS generated files
 .DS_Store
-answers
-data/MMBrowseComp_decrypted.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+lib/
+lib64/
+wheels/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Project specific
+answers/
 eval_results/
-processed_data.ipynb
+data/MMBrowseComp_decrypted.jsonl
