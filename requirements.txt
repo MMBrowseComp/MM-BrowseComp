@@ -6,3 +6,4 @@ distro
 sniffio
 anyio
 certifi
+requests
