@@ -206,7 +206,7 @@ def _call_request_api_once(
     payload: Dict[str, Any],
 ) -> Any:
     # Use data=json.dumps() instead of json= to match k2.py behavior
-    response = requests.post(url, headers=headers, data=json.dumps(payload), timeout=300)
+    response = requests.post(url, headers=headers, data=json.dumps(payload), timeout=600)
     response.raise_for_status()
     return response.json()
 
